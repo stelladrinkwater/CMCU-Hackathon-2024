@@ -1,0 +1,82 @@
+{
+	"pattrstorage" : 	{
+		"name" : "pat",
+		"slots" : 		{
+			"1000" : 			{
+				"id" : 1000,
+				"data" : 				{
+					"inputs~" : [ "in(1)" ],
+					"act_suggested" : [ 0 ],
+					"chans" : [ 1 ],
+					"send_back_light" : [ 0 ],
+					"input_menu" : [ "osc" ],
+					"on/off" : [ 1 ],
+					"routingW" : [ 0 ],
+					"send_back" : [ 0 ],
+					"throttle" : [ 10 ],
+					"output_menu" : [ 0 ],
+					"pres_menu" : [ "write" ],
+					"act_menu" : [ "no" ],
+					"baud_rate" : [ "57600" ],
+					"hi_menu" : [ "Apple Internal Keyboard / Trackpad" ],
+					"midi_channels" : [ 0 ],
+					"midi_receive_port" : [ "to Max 1" ],
+					"note_mode" : [ "notes_chords" ],
+					"osc_receive_port" : [ 8001 ],
+					"serial_open-close" : [ "close" ],
+					"serial_port" : [ "Bluetooth-Incoming-Port" ],
+					"wacom_menu" : [ 0 ],
+					"presets" : [ 0 ],
+					"tetris_menu" : [ "" ],
+					"title_menu" : [ "subpatch" ],
+					"master" : [ 0 ],
+					"list_inputs" : [ "_" ],
+					"osc_sendback" : [ "192.168.1.101", 9001 ],
+					"ignored" : [ "vol_ramp(2)", "_" ],
+					"osc_send" : [ "localhost", 7000 ],
+					"midi_send_port" : [ "AU DLS Synth 1" ],
+					"midi_send_channel" : [ 1 ],
+					"val1" : [ 0.351999998092651 ],
+					"val2" : [ 0.0 ],
+					"val3" : [ 0.0 ],
+					"val4" : [ 0.0 ],
+					"input_name" : [ "_", "sine_volume" ],
+					"in_lo" : [ "_", 762.0 ],
+					"in_hi" : [ "_", 794.0 ],
+					"name_user" : [ "_", "nn" ],
+					"in_min" : [ "_", 0 ],
+					"in_max" : [ "_", 10000.0 ],
+					"acts" : [ "_", "sinus1" ],
+					"pars" : [ "_", "freq" ],
+					"list_item" : [ "_", 0 ],
+					"modes" : [ "_", "scale" ],
+					"opt1" : [ "_", 0 ],
+					"opt2" : [ "_", 10000.0 ],
+					"opt3" : [ "_", 0 ],
+					"opt4" : [ "_", 0 ],
+					"ON" : [ "_", 1 ],
+					"listsize" : [ 12 ],
+					"par_type" : [ 0, 1 ],
+					"act_par" : [ "::_::_", "::sinus1::freq" ],
+					"listlength" : [ 1 ],
+					"viewBig" : [ 2, 1, 0, 400, 600, 1, 0, 0.343272, 0.067687, 0.119092, 0.864503, 0.810045, 0.982595, 0.031104, 0.589019 ]
+				}
+
+			}
+
+		}
+,
+		"clientstate" : 		{
+			"active" : 			{
+				"pres_menu" : 0,
+				"presets" : 0,
+				"tetris_menu" : 0,
+				"title_menu" : 0,
+				"master" : 0
+			}
+
+		}
+
+	}
+
+}

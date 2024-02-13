@@ -1,0 +1,78 @@
+{
+	"pattrstorage" : 	{
+		"name" : "pat",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"inputs~" : [ "vol(1)", "start(1)", "length(1)", "pitch(1)" ],
+					"current_end" : [ 1746.1199951171875 ],
+					"current_start" : [ 716.530029296875 ],
+					"end" : [ 2462.64990234375 ],
+					"end-jsui" : [  ],
+					"full_select" : [ -1 ],
+					"keep-time" : [ 0 ],
+					"length-jsui" : [  ],
+					"start-jsui" : [  ],
+					"ubumenu" : [ "start" ],
+					"buffer" : [ "stellawhisper.m4a" ],
+					"start" : [ 716.530029296875 ],
+					"length" : [ 1746.1199951171875 ],
+					"pitch" : [ 29.0 ],
+					"on/off" : [ 1 ],
+					"oneshot" : [ 0 ],
+					"oneshot_trigger" : [ -1 ],
+					"ext~vol" : [ 0 ],
+					"lookup" : [ 1 ],
+					"start_rel" : [ 0.123464359417949 ],
+					"length_rel" : [ 0.30087167020141 ],
+					"s-ramp" : [ 0.0 ],
+					"s-ramp-mode" : [ 1 ],
+					"start-ramp-stop" : [ -1 ],
+					"l-ramp" : [ 0.0 ],
+					"l-ramp-mode" : [ 1 ],
+					"length-ramp-stop" : [ -1 ],
+					"length/end" : [ 0 ],
+					"env-scale" : [ 24.189189189189189 ],
+					"pitchmenu" : [ 0 ],
+					"play-mode" : [ 3 ],
+					"ramp2pitch" : [ 0 ],
+					"pitch-ramp-stop" : [ -1 ],
+					"pitchslider" : [ 99 ],
+					"zero" : [ -1 ],
+					"preset-ramp" : [ 0.0 ],
+					"presets" : [ 0 ],
+					"title_menu" : [ "info" ],
+					"pres_menu" : [ "_" ],
+					"tetris_menu" : [ "" ],
+					"master" : [ 0 ],
+					"ll.blues::levels" : [ 1.0, 1.0, 0.0, 0.0, 10.0, 0.0, 0.5 ],
+					"ll.blues::outputs" : [ "ho_st1~out.1", "no~-no-" ],
+					"ll.blues::state" : [ 2, 1, 0, 0, 1, 0 ],
+					"act::active_store" : [ "_" ]
+				}
+
+			}
+
+		}
+,
+		"clientstate" : 		{
+			"active" : 			{
+				"preset-ramp" : 0,
+				"presets" : 0,
+				"title_menu" : 0,
+				"pres_menu" : 0,
+				"tetris_menu" : 0,
+				"master" : 0,
+				"ll.blues" : 0,
+				"ll.blues::levels" : 0,
+				"ll.blues::outputs" : 0,
+				"ll.blues::state" : 0,
+				"act::active_store" : 0
+			}
+
+		}
+
+	}
+
+}

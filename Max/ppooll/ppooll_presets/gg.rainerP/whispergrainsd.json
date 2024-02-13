@@ -1,0 +1,155 @@
+{
+	"pattrstorage" : 	{
+		"name" : "pat",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"grain_ramp" : [ 0 ],
+					"grain_ramp_stop" : [ -1 ],
+					"playbackspeed_ramp" : [ 1915 ],
+					"playbackspeed_ramp_stop" : [ -1 ],
+					"start" : [ 1042.993233366924642 ],
+					"trigger" : [ -1 ],
+					"density" : [ 100.0 ],
+					"gain" : [ 13.0 ],
+					"grainenvelope" : [ 1 ],
+					"grainlength" : [ 787.357726827308966 ],
+					"length" : [ 451.541965736924112 ],
+					"length_rel" : [ 1.0 ],
+					"fix_lang" : [ 0 ],
+					"pitch" : [ 1.0 ],
+					"pitchquantize" : [ 1.0 ],
+					"pitchrandomness" : [ 0.0 ],
+					"playbackspeed" : [ 2.288515734406738 ],
+					"random" : [ 206.254074641008629 ],
+					"start_rel" : [ 1.0 ],
+					"buffermenu" : [ "stellawhisper.m4a" ],
+					"pitch_ramp" : [ 0 ],
+					"pitch_ramp_stop" : [ -1 ],
+					"autochangemenu" : [ 1 ],
+					"autochangeinterval" : [ 100 ],
+					"autosliders" : [ 0.0, 0.31, 0.41, 0.99, 0.66, 0.68, 0.67, 0.52 ],
+					"controlmode" : [ 0 ],
+					"presets" : [ 0 ],
+					"preset-ramp" : [ 0 ],
+					"title_menu" : [ "info" ],
+					"pres_menu" : [ "_" ],
+					"tetris_menu" : [ "" ],
+					"master" : [ 0 ],
+					"act::active_store" : [ "_" ],
+					"ll.blues::levels" : [ 1.0, 1.0, 0.0, 0.0, 10, 0.0, 0.5 ],
+					"ll.blues::outputs" : [ "ho_st1~out.1", "no~-no-" ],
+					"ll.blues::state" : [ 2, 1, 0, 0, 2, 0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"grain_ramp" : [ 0 ],
+					"grain_ramp_stop" : [ -1 ],
+					"playbackspeed_ramp" : [ 1915 ],
+					"playbackspeed_ramp_stop" : [ -1 ],
+					"start" : [ 1452.9932475531009 ],
+					"trigger" : [ -1 ],
+					"density" : [ 100.0 ],
+					"gain" : [ 13.0 ],
+					"grainenvelope" : [ 2 ],
+					"grainlength" : [ 763.688127436080435 ],
+					"length" : [ 914.988693790520301 ],
+					"length_rel" : [ 1.0 ],
+					"fix_lang" : [ 0 ],
+					"pitch" : [ 0.583386197196127 ],
+					"pitchquantize" : [ 1.0 ],
+					"pitchrandomness" : [ 0.0 ],
+					"playbackspeed" : [ 3.743476571834966 ],
+					"random" : [ 206.254074641008629 ],
+					"start_rel" : [ 1.0 ],
+					"buffermenu" : [ "stellawhisper.m4a" ],
+					"pitch_ramp" : [ 0 ],
+					"pitch_ramp_stop" : [ -1 ],
+					"autochangemenu" : [ 0 ],
+					"autochangeinterval" : [ 100 ],
+					"autosliders" : [ 0.29, 0.49, 0.7, 0.61, 0.04, 0.2, 0.93, 0.32 ],
+					"controlmode" : [ 0 ],
+					"presets" : [ 3 ],
+					"preset-ramp" : [ 0 ],
+					"title_menu" : [ "info" ],
+					"pres_menu" : [ "_" ],
+					"tetris_menu" : [ "" ],
+					"master" : [ 0 ],
+					"act::active_store" : [ "_" ],
+					"ll.blues::levels" : [ 1.0, 1.0, 0.0, 0.0, 10, 0.0, 0.5 ],
+					"ll.blues::outputs" : [ "ho_st1~out.1", "no~-no-" ],
+					"ll.blues::state" : [ 2, 1, 0, 0, 2, 0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"grain_ramp" : [ 0 ],
+					"grain_ramp_stop" : [ -1 ],
+					"playbackspeed_ramp" : [ 1915 ],
+					"playbackspeed_ramp_stop" : [ -1 ],
+					"start" : [ 1452.9932475531009 ],
+					"trigger" : [ -1 ],
+					"density" : [ 100.0 ],
+					"gain" : [ 13.0 ],
+					"grainenvelope" : [ 2 ],
+					"grainlength" : [ 221.790259169326987 ],
+					"length" : [ 914.988693790520301 ],
+					"length_rel" : [ 1.0 ],
+					"fix_lang" : [ 0 ],
+					"pitch" : [ 1.0 ],
+					"pitchquantize" : [ 1.0 ],
+					"pitchrandomness" : [ 0.0 ],
+					"playbackspeed" : [ 2.288515734406738 ],
+					"random" : [ 206.254074641008629 ],
+					"start_rel" : [ 1.0 ],
+					"buffermenu" : [ "stellawhisper.m4a" ],
+					"pitch_ramp" : [ 0 ],
+					"pitch_ramp_stop" : [ -1 ],
+					"autochangemenu" : [ 0 ],
+					"autochangeinterval" : [ 100 ],
+					"autosliders" : [ 0.29, 0.49, 0.7, 0.61, 0.04, 0.2, 0.93, 0.32 ],
+					"controlmode" : [ 0 ],
+					"presets" : [ 1 ],
+					"preset-ramp" : [ 0 ],
+					"title_menu" : [ "info" ],
+					"pres_menu" : [ "_" ],
+					"tetris_menu" : [ "" ],
+					"master" : [ 0 ],
+					"act::active_store" : [ "_" ],
+					"ll.blues::levels" : [ 1.0, 1.0, 0.0, 0.0, 10, 0.0, 0.5 ],
+					"ll.blues::outputs" : [ "ho_st1~out.1", "no~-no-" ],
+					"ll.blues::state" : [ 2, 1, 0, 0, 2, 0 ]
+				}
+
+			}
+
+		}
+,
+		"clientstate" : 		{
+			"active" : 			{
+				"presets" : 0,
+				"preset-ramp" : 0,
+				"title_menu" : 0,
+				"pres_menu" : 0,
+				"tetris_menu" : 0,
+				"master" : 0,
+				"act::active_store" : 0,
+				"ll.blues" : 0,
+				"ll.blues::levels" : 0,
+				"ll.blues::outputs" : 0,
+				"ll.blues::state" : 0
+			}
+
+		}
+
+	}
+
+}
