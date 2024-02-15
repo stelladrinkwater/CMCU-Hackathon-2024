@@ -40,12 +40,97 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-20",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 375.487812757492065, 229.804877758026123, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-18",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 209.756098985671997, 229.804877758026123, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 375.487812757492065, 344.0, 140.0, 22.0 ],
+					"text" : "prepend proximity_score"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 209.756098985671997, 344.0, 125.0, 22.0 ],
+					"text" : "prepend handL_score"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-10",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 15.0, 229.804877758026123, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 391.817075729370117, 207.804877758026123, 51.0, 20.0 ],
+					"text" : "handR"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 227.487807989120483, 208.024389982223511, 51.0, 20.0 ],
+					"text" : "handL"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 212.0, 26.0, 20.0 ],
-					"text" : "0-7"
+					"patching_rect" : [ 26.0, 207.804877758026123, 51.0, 20.0 ],
+					"text" : "depth"
 				}
 
 			}
@@ -56,7 +141,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 235.0, 424.0, 150.0, 47.0 ],
+					"patching_rect" : [ 235.0, 424.0, 150.0, 48.0 ],
 					"text" : "8001 port number could be anything it jsut needs to be the same in ppooll"
 				}
 
@@ -69,7 +154,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 311.0, 241.0, 24.0, 24.0 ]
+					"patching_rect" : [ 562.219518184661865, 228.804877758026123, 24.0, 24.0 ]
 				}
 
 			}
@@ -80,7 +165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 311.0, 344.0, 135.0, 22.0 ],
+					"patching_rect" : [ 562.219518184661865, 344.0, 135.0, 22.0 ],
 					"text" : "prepend ingrid_touched"
 				}
 
@@ -92,20 +177,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 286.0, 178.0, 33.0 ],
+					"patching_rect" : [ 38.707314252853394, 301.463414430618286, 178.0, 34.0 ],
 					"text" : "Give it a name so ppooll knows what parameter to change"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 78.0, 241.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -116,7 +189,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 78.0, 339.0, 140.0, 22.0 ],
+					"patching_rect" : [ 15.0, 344.0, 140.0, 22.0 ],
 					"text" : "prepend proximity_score"
 				}
 
@@ -128,7 +201,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 247.0, 101.0, 150.0, 33.0 ],
+					"patching_rect" : [ 498.219518184661865, 88.804877758026123, 150.0, 34.0 ],
 					"text" : "Arduino data will come throuhg here"
 				}
 
@@ -140,7 +213,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 311.0, 142.0, 81.0, 22.0 ],
+					"patching_rect" : [ 562.219518184661865, 129.804877758026123, 81.0, 22.0 ],
 					"text" : "arduino_input"
 				}
 
@@ -151,7 +224,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.0, 50.0, 236.0, 20.0 ],
+					"patching_rect" : [ 14.902437686920166, 51.219512224197388, 236.0, 20.0 ],
 					"text" : "Kinect data will come through here"
 				}
 
@@ -161,9 +234,9 @@
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 78.0, 83.0, 73.0, 22.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 15.0, 83.0, 73.0, 22.0 ],
 					"text" : "kinect_input"
 				}
 
@@ -200,6 +273,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -214,15 +294,36 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-6", 0 ]
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-5", 2 ]
 				}
 
 			}
@@ -236,17 +337,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "arduino_input.maxpat",
-				"bootpath" : "~/Documents/GitHub/CMCU-Hackathon-2024/Max",
+				"bootpath" : "~/OneDrive/Desktop/Hackathon 2024",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kinect_input.maxpat",
-				"bootpath" : "~/Documents/GitHub/CMCU-Hackathon-2024/Max",
+				"bootpath" : "~/OneDrive/Desktop/Hackathon 2024",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
