@@ -1,0 +1,69 @@
+{
+	"pattrstorage" : 	{
+		"name" : "pat",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"grain_ramp" : [ 0 ],
+					"grain_ramp_stop" : [ -1 ],
+					"playbackspeed_ramp" : [ 140 ],
+					"playbackspeed_ramp_stop" : [ -1 ],
+					"start" : [ 1751.99552547240387 ],
+					"trigger" : [ -1 ],
+					"density" : [ 100.0 ],
+					"gain" : [ 0.7 ],
+					"grainenvelope" : [ 3 ],
+					"grainlength" : [ 256.95746274258579 ],
+					"length" : [ 0.090702950984223 ],
+					"length_rel" : [ 0.090702950984223 ],
+					"fix_lang" : [ 0 ],
+					"pitch" : [ 0.014285714498588 ],
+					"pitchquantize" : [ 0.0 ],
+					"pitchrandomness" : [ 0.78 ],
+					"playbackspeed" : [ -0.329748961831516 ],
+					"random" : [ 657.93290408482153 ],
+					"start_rel" : [ 1.0 ],
+					"buffermenu" : [ "very-loud-creak-sound-fx_143bpm.wav" ],
+					"pitch_ramp" : [ 1028 ],
+					"pitch_ramp_stop" : [ -1 ],
+					"autochangemenu" : [ 0 ],
+					"autochangeinterval" : [ 778 ],
+					"autosliders" : [ 0.823529411764706, 0.617647058823529, 0.735294117647059, 0.529411764705882, 0.647058823529412, 0.705882352941177, 0.705882352941177, 0.558823529411765 ],
+					"controlmode" : [ 1 ],
+					"presets" : [ 0 ],
+					"preset-ramp" : [ 0 ],
+					"title_menu" : [ "subpatch" ],
+					"pres_menu" : [ "_" ],
+					"tetris_menu" : [ "" ],
+					"master" : [ 0 ],
+					"act::active_store" : [ "_" ],
+					"ll.blues::levels" : [ 1.0, 1.0, 0.331034482758621, 0.0, 10, 0.0, 0.5 ],
+					"ll.blues::outputs" : [ "ho_st1~out.1", "prdelay@1~in.1" ],
+					"ll.blues::state" : [ 2, 1, 0, 0, 2, 0 ]
+				}
+
+			}
+
+		}
+,
+		"clientstate" : 		{
+			"active" : 			{
+				"presets" : 0,
+				"preset-ramp" : 0,
+				"title_menu" : 0,
+				"pres_menu" : 0,
+				"tetris_menu" : 0,
+				"master" : 0,
+				"act::active_store" : 0,
+				"ll.blues" : 0,
+				"ll.blues::levels" : 0,
+				"ll.blues::outputs" : 0,
+				"ll.blues::state" : 0
+			}
+
+		}
+
+	}
+
+}

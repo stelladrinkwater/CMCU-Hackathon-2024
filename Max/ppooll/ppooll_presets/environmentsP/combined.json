@@ -1,0 +1,224 @@
+{
+	"ho_st1" : 	{
+		"_actwindow" : [ "ho_st", 176, 43, 306, 168 ],
+		"act" : 		{
+			"active_store" : "_"
+		}
+,
+		"inputs~" : "out(16)",
+		"params_only" : 0,
+		"pfl_par_menu" : "-no-",
+		"pfl_act_menu" : "no",
+		"ll.dims" : 0,
+		"osc_port" : 7400,
+		"write_envi" : -1,
+		"watch_menu" : "time",
+		"vol_slider" : 0.443412782352336,
+		"vol_ramp" : 10,
+		"vol" : 0.079999998211861,
+		"title_menu" : "info",
+		"tetris_menu" : "",
+		"stereo" : 0,
+		"screen" : 1,
+		"rec" : 0,
+		"pres_menu" : "_",
+		"ppooll" : -1,
+		"menubar" : 0,
+		"master" : "we",
+		"jit.on" : 0,
+		"favorites" : "(favorites)",
+		"envi_menu" : "write",
+		"def" : -1,
+		"chans" : 16,
+		"audioON/OFF" : 1,
+		"act_menu" : "(__acts__)"
+	}
+,
+	"buffer_host1" : 	{
+		"_actwindow" : [ "buffer_host", 14, 151, 133, 337 ],
+		"act" : 		{
+			"active_store" : "_"
+		}
+,
+		"file_menu_out" : "Macintosh HD:/Users/josephsteccato/Music/ppooll/ppooll_rec/2022.10.9llrec21.37.14.aif",
+		"size-box" : 6716.349206349206725,
+		"open!" : -1,
+		"normalize" : -1,
+		"folder_menu" : "samples/",
+		"file_menu" : "",
+		"ff" : -1,
+		"f" : -1,
+		"channels" : 2,
+		"action_menu" : "samplebuffers",
+		"title_menu" : "subpatch",
+		"pres_menu" : "mck",
+		"tetris_menu" : "",
+		"master" : 0
+	}
+,
+	"control@1" : 	{
+		"_actwindow" : [ "control@", 428, 123, 619, 176 ],
+		"viewBig" : [ 2, 1, 0, 400, 600, 1, 0, 0.343272, 0.067687, 0.119092, 0.864503, 0.810045, 0.982595, 0.031104, 0.589019 ],
+		"listlength" : 1,
+		"act_par" : [ "::_::_", "::sinus1::freq", "::sinus1::ll.blues::levels", "::gg.rainer1::pitch" ],
+		"par_type" : [ 0, 1, 2, 1 ],
+		"listsize" : 12,
+		"ON" : [ "_", 1, 1, 1 ],
+		"opt4" : [ "_", 0, 0, 0 ],
+		"opt3" : [ "_", 1.0, 2.0, 0.0 ],
+		"opt2" : [ "_", 5963.0, 0.2, 1.0 ],
+		"opt1" : [ "_", 3141.0, 0.02, 0.0 ],
+		"modes" : [ "_", "scale", "scale", "scale" ],
+		"list_item" : [ "_", 0, 1, 2 ],
+		"pars" : [ "_", "freq", "ll.blues::levels", "pitch" ],
+		"acts" : [ "_", "sinus1", "sinus1", "gg.rainer1" ],
+		"in_max" : [ "_", 7.0, 7.0, 7.0 ],
+		"in_min" : [ "_", 0.0, 0, 0 ],
+		"name_user" : [ "_", "nn", "nn", "nn" ],
+		"in_hi" : [ "_", 60.0, 60.0, 60.0 ],
+		"in_lo" : [ "_", -46.0, -46.0, -46.0 ],
+		"input_name" : [ "_", "proximity_score", "proximity_score", "proximity_score" ],
+		"val4" : 0.0,
+		"val3" : 0.0,
+		"val2" : 0.0,
+		"val1" : 0.351999998092651,
+		"midi_send_channel" : 1,
+		"midi_send_port" : "AU DLS Synth 1",
+		"osc_send" : [ "localhost", 7000 ],
+		"ignored" : [ "vol_ramp(2)", "_" ],
+		"osc_sendback" : [ "192.168.1.101", 9001 ],
+		"list_inputs" : "_",
+		"send_back_light" : 0,
+		"chans" : 1,
+		"act_suggested" : 0,
+		"inputs~" : "in(1)",
+		"input_menu" : "osc",
+		"on/off" : 1,
+		"routingW" : 1,
+		"send_back" : 0,
+		"throttle" : 10,
+		"output_menu" : 0,
+		"pres_menu" : "mck",
+		"wacom_menu" : 0,
+		"serial_port" : "Bluetooth-Incoming-Port",
+		"serial_open-close" : "close",
+		"osc_receive_port" : 8001,
+		"note_mode" : "notes_chords",
+		"midi_receive_port" : "to Max 1",
+		"midi_channels" : 0,
+		"hi_menu" : "Apple Internal Keyboard / Trackpad",
+		"baud_rate" : "57600",
+		"act_menu" : "no",
+		"presets" : 1,
+		"title_menu" : "subpatch",
+		"tetris_menu" : "",
+		"master" : 0
+	}
+,
+	"gg.rainer1" : 	{
+		"_actwindow" : [ "gg.rainer", 317, 238, 635, 510 ],
+		"ll.blues" : 		{
+			"state" : [ 2, 1, 0, 0, 2, 0 ],
+			"outputs" : [ "ho_st1~out.1", "prdelay@1~in.1" ],
+			"levels" : [ 1.0, 1.0, 0.331034482758621, 0.0, 10, 0.0, 0.5 ]
+		}
+,
+		"act" : 		{
+			"active_store" : "_"
+		}
+,
+		"trigger" : -1,
+		"start" : 1751.99552547240387,
+		"playbackspeed_ramp_stop" : -1,
+		"playbackspeed_ramp" : 140,
+		"grain_ramp_stop" : -1,
+		"grain_ramp" : 0,
+		"density" : 100.0,
+		"gain" : 0.7,
+		"grainenvelope" : 3,
+		"grainlength" : 256.95746274258579,
+		"length" : 0.090702950984223,
+		"length_rel" : 0.090702950984223,
+		"fix_lang" : 0,
+		"pitch" : 0.014285714498588,
+		"pitchquantize" : 0.0,
+		"pitchrandomness" : 0.78,
+		"playbackspeed" : -0.329748961831516,
+		"random" : 657.93290408482153,
+		"start_rel" : 1.0,
+		"buffermenu" : "very-loud-creak-sound-fx_143bpm.wav",
+		"pitch_ramp_stop" : -1,
+		"pitch_ramp" : 1028,
+		"autochangemenu" : 0,
+		"autochangeinterval" : 778,
+		"autosliders" : [ 0.823529411764706, 0.617647058823529, 0.735294117647059, 0.529411764705882, 0.647058823529412, 0.705882352941177, 0.705882352941177, 0.558823529411765 ],
+		"controlmode" : 1,
+		"presets" : 1,
+		"preset-ramp" : 0,
+		"title_menu" : "subpatch",
+		"pres_menu" : "mck",
+		"tetris_menu" : "",
+		"master" : 0
+	}
+,
+	"prdelay@1" : 	{
+		"_actwindow" : [ "prdelay@", 11, 342, 171, 471 ],
+		"ll.blues" : 		{
+			"state" : [ 2, 1, 0, 0, 1, 0 ],
+			"outputs" : [ "ho_st1~out.1", "no~-no-" ],
+			"levels" : [ 0.963102959100379, 0.963102959100379, 0.0, 1.0, 10.0, 0.0, 0.5 ]
+		}
+,
+		"act" : 		{
+			"active_store" : "_"
+		}
+,
+		"presets" : 1,
+		"preset-ramp" : 0.0,
+		"inputs~" : "in(1)",
+		"delayL" : 386,
+		"delayR" : 175,
+		"feedback" : 0.614906634294043,
+		"link!" : 0,
+		"straight/cross" : 0,
+		"master" : 0,
+		"title_menu" : "subpatch",
+		"tetris_menu" : "",
+		"pres_menu" : "mck"
+	}
+,
+	"sinus1" : 	{
+		"_actwindow" : [ "sinus", 177, 211, 310, 411 ],
+		"ll.blues" : 		{
+			"state" : [ 2, 1, 0, 0, 1, 0 ],
+			"outputs" : [ "ho_st1~out.1", "prdelay@1~in.1" ],
+			"levels" : [ 0.020816557448198, 0.605552923162342, 0.537190082644628, 0.0, 1083, 0.0, 0.5 ]
+		}
+,
+		"act" : 		{
+			"active_store" : "_"
+		}
+,
+		"inputs~" : [ "0(1)", "in(1)", "phase(1)", "freq(1)", "ring(1)", "sync_in(1)" ],
+		"freq" : 3164.630362016483105,
+		"freq-relative" : 36.299999999999997,
+		"oct.div" : 12.0,
+		"base-freq" : 5124.0,
+		"takeover" : -1,
+		"use-env" : 0,
+		"bang-env" : -1,
+		"loop-env" : 0,
+		"f-rel>trigger" : 0,
+		"length" : 0,
+		"length-slider" : 0.0,
+		"presets" : 1,
+		"preset-ramp" : 358,
+		"envelope" : [ 20.0, 0.0, 1.0, 0.0, 0.0, 0, 1.509433962264151, 0.0, 0, 18.867924528301888, 0.0, 0, "linear" ],
+		"freqNOramp" : 1,
+		"title_menu" : "subpatch",
+		"tetris_menu" : "",
+		"pres_menu" : "mck",
+		"master" : 0
+	}
+
+}

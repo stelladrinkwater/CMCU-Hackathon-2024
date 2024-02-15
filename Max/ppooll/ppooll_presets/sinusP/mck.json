@@ -1,0 +1,65 @@
+{
+	"pattrstorage" : 	{
+		"name" : "pat",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"inputs~" : [ "0(1)", "in(1)", "phase(1)", "freq(1)", "ring(1)", "sync_in(1)" ],
+					"freq" : [ 3164.630362016483105 ],
+					"freq-relative" : [ 36.299999999999997 ],
+					"oct.div" : [ 12.0 ],
+					"base-freq" : [ 5124.0 ],
+					"takeover" : [ -1 ],
+					"use-env" : [ 0 ],
+					"bang-env" : [ -1 ],
+					"loop-env" : [ 0 ],
+					"f-rel>trigger" : [ 0 ],
+					"length" : [ 0 ],
+					"length-slider" : [ 0.0 ],
+					"presets" : [ 2 ],
+					"preset-ramp" : [ 358 ],
+					"envelope" : [ 20.0, 0.0, 1.0, 0.0, 0.0, 0, 1.509433962264151, 0.0, 0, 18.867924528301888, 0.0, 0, "linear" ],
+					"freqNOramp" : [ 1 ],
+					"title_menu" : [ "subpatch" ],
+					"tetris_menu" : [ "" ],
+					"pres_menu" : [ "_" ],
+					"master" : [ 0 ],
+					"act::active_store" : [ "_" ],
+					"ll.blues::levels" : [ 0.020816557448198, 0.605552923162342, 0.537190082644628, 0.0, 1083, 0.0, 0.5 ],
+					"ll.blues::outputs" : [ "ho_st1~out.1", "prdelay@1~in.1" ],
+					"ll.blues::state" : [ 2, 1, 0, 0, 1, 0 ]
+				}
+
+			}
+
+		}
+,
+		"clientstate" : 		{
+			"active" : 			{
+				"freq-relative" : 0,
+				"takeover" : 0,
+				"bang-env" : 0,
+				"f-rel>trigger" : 0,
+				"length" : 0,
+				"length-slider" : 0,
+				"presets" : 0,
+				"preset-ramp" : 0,
+				"freqNOramp" : 0,
+				"title_menu" : 0,
+				"tetris_menu" : 0,
+				"pres_menu" : 0,
+				"master" : 0,
+				"act" : 0,
+				"act::active_store" : 0,
+				"ll.blues" : 0,
+				"ll.blues::levels" : 0,
+				"ll.blues::outputs" : 0,
+				"ll.blues::state" : 0
+			}
+
+		}
+
+	}
+
+}

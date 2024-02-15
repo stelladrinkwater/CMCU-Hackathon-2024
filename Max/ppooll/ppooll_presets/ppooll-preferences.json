@@ -1,6 +1,6 @@
 {
 	"general" : 	{
-		"screencolor" : [ 0.268194884061813, 1, 0.155001923441887, 1 ],
+		"screencolor" : [ 0.188686117529869, 0, 0.230102822184563, 1 ],
 		"audioON/OFF" : 97,
 		"quickrecord_samplerate" : "",
 		"quickrecord_fileformat" : "wav",
