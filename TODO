@@ -1,0 +1,43 @@
+TODO:
+
+Edit demo video
+- decide on timeline
+- touchup noise/framerate issues
+
+Shoot explained video
+- interviews
+- kinect
+- touch sensor
+
+Project content
+- select photos to use
+- write descriptions
+
+Edit explained video
+- grab kinect shots from demo video
+
+Touch sensor
+- buy aluminum tape / get wire
+- build arduino sensor to connect to mannequin
+- get it to trigger button in Max
+
+Kinect sensor 
+- edit kinect data to make for one continuous data stream
+
+ppooll
+- generate sounds
+- create parameters to be affected by sensor data
+
+ableton 
+- compose ending sequence
+- trigger with max4live 
+
+MaxMSP
+- export sensor data to file
+- finalize communication between all programs
+
+Tidy
+- bring theramin + amp + stands back from synth room
+- clean stain on carpet
+- move desk items back into place
+
