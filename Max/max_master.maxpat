@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 766.0, 174.0, 640.0, 480.0 ],
+		"rect" : [ 114.0, 101.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -141,7 +141,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 235.0, 424.0, 150.0, 48.0 ],
+					"patching_rect" : [ 235.0, 424.0, 150.0, 47.0 ],
 					"text" : "8001 port number could be anything it jsut needs to be the same in ppooll"
 				}
 
@@ -177,7 +177,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.707314252853394, 301.463414430618286, 178.0, 34.0 ],
+					"patching_rect" : [ 38.707314252853394, 301.463414430618286, 178.0, 33.0 ],
 					"text" : "Give it a name so ppooll knows what parameter to change"
 				}
 
@@ -201,7 +201,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 498.219518184661865, 88.804877758026123, 150.0, 34.0 ],
+					"patching_rect" : [ 498.219518184661865, 88.804877758026123, 150.0, 33.0 ],
 					"text" : "Arduino data will come throuhg here"
 				}
 
@@ -337,21 +337,17 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "arduino_input.maxpat",
-				"bootpath" : "~/OneDrive/Desktop/Hackathon 2024",
+				"bootpath" : "~/Documents/GitHub/CMCU-Hackathon-2024/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kinect_input.maxpat",
-				"bootpath" : "~/OneDrive/Desktop/Hackathon 2024",
+				"bootpath" : "~/Documents/GitHub/CMCU-Hackathon-2024/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "o.route.mxe64",
-				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
